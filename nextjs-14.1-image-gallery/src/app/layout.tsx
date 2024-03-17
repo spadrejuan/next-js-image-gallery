@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Add import for bootstrap
 import "./globals.css";
+import { Container, SSRProvider } from '@/components/bootstrap';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      {/* <div>This div is hidden across layouts</div> */}
-      {children}
+      {/* use client component features internally. SSR Provider is for Bootstrap */}
+      <SSRProvider>
+        <main>
+          <Container className="py-4"> 
+            {children}
+          </Container>
+        </main>
+      </SSRProvider>
       </body>
     </html>
   );
