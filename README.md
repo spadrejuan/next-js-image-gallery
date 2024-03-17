@@ -9,6 +9,10 @@ https://youtu.be/fqfer6xMp2A?si=8WXXzM07WIha8N9i
 ```
 https://nextjs.org/docs
 ```
+React-Bootstrap
+```
+https://react-bootstrap.netlify.app/docs/getting-started/introduction
+```
 2. To initialize a Next.js project, run this command on the command line and folder for the project
 ```
 npx create-next-app@latest
