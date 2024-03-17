@@ -1,0 +1,1 @@
+# An Image Gallery app made in Next.js using TypeScript and React
