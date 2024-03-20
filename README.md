@@ -27,3 +27,14 @@ npm i bootstrap react-bootstrap
 ```
 npm run dev
 ```
+
+### Project Specifications
+1. This project uses Unsplash's free image API's. You need to create an account to replicate this project. The link is
+```
+https://unsplash.com/developers
+```
+2. Once you create an account, make sure to create a .env.local file to store your access keys, since they are confidential.
+3. For more information, here is the link for Unsplash's Documentation.
+```
+https://unsplash.com/documentation
+```
