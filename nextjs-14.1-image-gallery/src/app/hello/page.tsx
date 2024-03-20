@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default async function Page() {
     await new Promise((resolve) => setTimeout(resolve, 1000)); //Artificial delay to load Loading page
-    throw Error("Error")
+    // throw Error("Error")
     // useEffect(() => {});
     return (
         <div>
