@@ -38,3 +38,12 @@ https://unsplash.com/developers
 ```
 https://unsplash.com/documentation
 ```
+4. To allow image resizing for NextJS, configure the next.config.mjs file to include the domains of websites. Here is a sample
+```
+const nextConfig = {
+    images: {
+        domains: ["images.unsplash.com", "plus.images.com"]
+    }
+};
+```
+5. For static loading, use Ctrl + Down key + F5 to hard refresh for different images
