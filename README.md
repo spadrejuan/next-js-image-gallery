@@ -47,3 +47,14 @@ const nextConfig = {
 };
 ```
 5. For static loading, use Ctrl + Down key + F5 to hard refresh for different images
+6. For social media previews, if the file name is named to this
+```
+opengraph-image
+```
+NextJS will automatically set it as the social media preview.
+Same gist for fav icons named
+```
+favicon.ico
+```
+NextJS will automatically set it as the faf icon, the icon in the browser tab.
+Both should be inside the /app folder
