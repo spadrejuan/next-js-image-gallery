@@ -58,3 +58,9 @@ favicon.ico
 ```
 NextJS will automatically set it as the faf icon, the icon in the browser tab.
 Both should be inside the /app folder
+
+### Deploying to Vercel
+1. Create a Vercel Account using your GitHub Account.
+2. Navigate to Overview and Select the Add button.
+3. Select the repository you want to add.
+4. Be sure to add the UNSPLASH_ACCESS_KEY along with its value. Vercel automatically encrypts this.
