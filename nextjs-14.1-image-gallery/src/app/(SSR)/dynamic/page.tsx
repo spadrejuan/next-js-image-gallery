@@ -31,7 +31,7 @@ export default async function Dynamic() {
 
             <Image src={image.urls.raw} width={width} height={height} alt={image.description} 
             className="rounded shadow mw-100 h-100"></Image>
-            by <Link href={"/users" + image.user.username}>{image.user.username}</Link>
+            by <Link href={"/user/" + image.user.username}>{image.user.username}</Link>
         </div>
     );
 }
