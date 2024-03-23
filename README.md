@@ -64,3 +64,5 @@ Both should be inside the /app folder
 2. Navigate to Overview and Select the Add button.
 3. Select the repository you want to add.
 4. Be sure to add the UNSPLASH_ACCESS_KEY along with its value. Vercel automatically encrypts this.
+5. To properly display open graph images, make sure to modify the authentication for website visits.
+![Description of Step 5](image.png)
