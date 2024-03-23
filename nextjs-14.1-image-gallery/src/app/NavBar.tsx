@@ -20,6 +20,7 @@ export default function NavBar() {
                     </Nav> */}
                     <Nav>
                         <Nav.Link as={Link} href="/static" active={pathname === "/static"}>Static Loading</Nav.Link>
+                        <Nav.Link as={Link} href="/dynamic" active={pathname === "/dynamic"}>Dynamic Loading</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
