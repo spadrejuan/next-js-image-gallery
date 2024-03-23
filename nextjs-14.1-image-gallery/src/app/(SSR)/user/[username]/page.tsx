@@ -9,7 +9,7 @@ interface PageProps {
     params: { username: string },
 }
 
-export async function getUser(username: string): Promise<UnsplashUser> {
+async function getUser(username: string): Promise<UnsplashUser> {
     const response = await fetch(`https://api.unsplash.com/users/${username}?client_id=${process.env.UNSPLASH_ACCESS_KEY}`);
     if (response.status === 404) notFound(); // check if user exists, if not, redirect to not found page
     return await response.json();
