@@ -12,11 +12,7 @@ export const metadata: Metadata = {
 
 
 export default async function ISR() {
-    const response = await fetch("https://api.unsplash.com/photos/random?client_id=" + process.env.UNSPLASH_ACCESS_KEY, 
-    {
-        // cache: "no-cache" // another way to dynamically cache api calls
-        // next: { revalidate = 0 } // another way
-    });
+    const response = await fetch("https://api.unsplash.com/photos/random?client_id=" + process.env.UNSPLASH_ACCESS_KEY);
     const image: UnsplashImage = await response.json();
     // Calculate image dimensions
     const width = Math.min(500, image.width);
