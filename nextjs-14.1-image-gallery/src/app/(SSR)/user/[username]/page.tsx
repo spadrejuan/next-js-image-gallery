@@ -34,9 +34,8 @@ export default async function Page({params: {username}}: PageProps){
     return (
         <div>
              <Alert>
-                This profile page uses <strong>generateMetadata</strong> to set the <strong>page title</strong> 
-                dynamically from the API response.
-            </Alert>
+                This profile page uses <strong>generateMetadata</strong> to set the <strong>page title</strong> dynamically from the API response.
+            </Alert> 
 
             <h1>{user.username}</h1>
             <p>First name: {user.first_name}</p>
