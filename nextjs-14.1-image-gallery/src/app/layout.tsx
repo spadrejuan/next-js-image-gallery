@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Next.js 14.1 Image Gallery",
   description: "Tutorial Project in Next.js 14.1",
+  metadataBase: new URL("https://next-js-image-gallery-three.vercel.app/")
 };
 
 export default function RootLayout({
